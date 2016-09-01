@@ -1,0 +1,13 @@
+2016-08-31T19:33:11.562 +0000 INFO  - FeatureCollection added = FeatureCollectionConfig name ='USEast COAWST-ROMS Forecast Model Run Collection' collectionName='USEast_COAWST-ROMS_Forecast_Model_Run_Collection' type='FMRC'
+  spec='/raid0/data/useast/COAWST/ROMS/his_#yyyyMMdd#.*\.nc$'
+  olderThan =10 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 5 * * * ? *', triggerOk=true, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='[Element: <netcdf [Namespace: http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2]/>]', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=false datasetTypes=[Best]
+
+2016-08-31T19:33:11.563 +0000 INFO  - scheduleJob startup scan force=test for 'USEast_COAWST-ROMS_Forecast_Model_Run_Collection' at 2016-08-31T19:33:14.563+0000
+2016-08-31T19:33:11.563 +0000 INFO  - scheduleJob recurring scan for 'USEast_COAWST-ROMS_Forecast_Model_Run_Collection' cronExpr=0 5 * * * ? *
+2016-09-01T15:05:00.018 +0000 INFO  - USEast_COAWST-ROMS_Forecast_Model_Run_Collection: scan found changes 2016-09-01T15:05:00.018+0000: nnew=1, nchange=0, ndelete=0

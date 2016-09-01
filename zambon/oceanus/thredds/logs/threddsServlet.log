@@ -1,0 +1,4 @@
+2016-08-31T22:09:23.172 +0000 [1040658456][    1078] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/fmrc/sabgom_roms/catalog.html?dataset=fmrc/sabgom_roms/SABGOM_ROMS_Forecast_Model_Run_Collection_best.ncd HTTP/1.1"
+2016-08-31T22:09:23.185 +0000 [1040658469][    1078] INFO  - threddsServlet - Request Completed - 200 - -1 - 14
+2016-08-31T22:09:26.639 +0000 [1040661923][    1079] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/fmrc/useast_coawst_roms/catalog.html?dataset=fmrc/useast_coawst_roms/USEast_COAWST-ROMS_Forecast_Model_Run_Collection_best.ncd HTTP/1.1"
+2016-08-31T22:09:26.644 +0000 [1040661928][    1079] INFO  - threddsServlet - Request Completed - 200 - -1 - 5

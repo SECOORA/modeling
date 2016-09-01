@@ -1,0 +1,142 @@
+2016-08-30T19:42:51.170 +0000 [ 945466454][       1] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ HTTP/1.1"
+2016-08-30T19:42:51.218 +0000 [ 945466502][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 48
+2016-08-30T19:42:51.224 +0000 [ 945466508][       2] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-08-30T19:42:51.254 +0000 [ 945466538][       2] INFO  - threddsServlet - Request Completed - 200 - 3709 - 30
+2016-08-30T19:42:53.779 +0000 [ 945469063][       3] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalogs/sabgom_roms_nf.html HTTP/1.1"
+2016-08-30T19:42:53.783 +0000 [ 945469067][       3] INFO  - threddsServlet - Request Completed - 200 - 1539 - 4
+2016-08-30T19:42:55.069 +0000 [ 945470353][       4] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/SABGOM/forecast/catalog.html HTTP/1.1"
+2016-08-30T19:42:55.514 +0000 [ 945470798][       4] INFO  - threddsServlet - Request Completed - 200 - 711779 - 445
+2016-08-30T19:43:46.315 +0000 [ 945521599][       1] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ HTTP/1.1"
+2016-08-30T19:43:46.359 +0000 [ 945521643][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 44
+2016-08-30T19:43:46.366 +0000 [ 945521650][       2] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-08-30T19:43:46.397 +0000 [ 945521681][       2] INFO  - threddsServlet - Request Completed - 200 - 3709 - 31
+2016-08-30T19:43:47.941 +0000 [ 945523225][       3] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalogs/sabgom_roms_nf.html HTTP/1.1"
+2016-08-30T19:43:47.944 +0000 [ 945523228][       3] INFO  - threddsServlet - Request Completed - 200 - 1539 - 4
+2016-08-30T19:43:49.092 +0000 [ 945524376][       4] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/SABGOM/forecast/catalog.html HTTP/1.1"
+2016-08-30T19:43:49.361 +0000 [ 945524645][       4] INFO  - threddsServlet - Request Completed - 200 - 711779 - 269
+2016-08-30T19:47:20.801 +0000 [ 945736085][       1] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ HTTP/1.1"
+2016-08-30T19:47:20.851 +0000 [ 945736135][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 51
+2016-08-30T19:47:20.858 +0000 [ 945736142][       2] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-08-30T19:47:20.892 +0000 [ 945736176][       2] INFO  - threddsServlet - Request Completed - 200 - 3717 - 34
+2016-08-30T19:47:23.824 +0000 [ 945739108][       3] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalogs/sabgom_ROMS_nf_catalog.html HTTP/1.1"
+2016-08-30T19:47:23.836 +0000 [ 945739120][       3] INFO  - threddsServlet - Request Completed - 200 - 1821 - 12
+2016-08-30T19:47:26.056 +0000 [ 945741340][       4] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/fmrc/sabgom_roms/catalog.html HTTP/1.1"
+2016-08-30T19:47:52.091 +0000 [ 945767375][       4] INFO  - threddsServlet - Request Completed - 200 - 1787 - 26035
+2016-08-30T19:47:55.082 +0000 [ 945770366][       5] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog/fmrc/sabgom_roms/catalog.html?dataset=fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd HTTP/1.1"
+2016-08-30T19:47:55.094 +0000 [ 945770378][       5] INFO  - threddsServlet - Request Completed - 200 - -1 - 12
+2016-08-30T19:49:36.705 +0000 [ 945871989][       6] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/dodsC/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd.html HTTP/1.1"
+2016-08-30T19:49:37.105 +0000 [ 945872389][       6] INFO  - threddsServlet - Request Completed - 200 - -1 - 401
+2016-08-30T19:49:37.150 +0000 [ 945872434][       7] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/tdsDap.css HTTP/1.1"
+2016-08-30T19:49:37.158 +0000 [ 945872442][       7] INFO  - threddsServlet - Request Completed - 200 - -1 - 8
+2016-08-30T19:50:08.962 +0000 [ 945904246][       8] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/dodsC/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd.ascii?ocean_time[0:1:39] HTTP/1.1"
+2016-08-30T19:50:09.162 +0000 [ 945904446][       8] INFO  - threddsServlet - Request Completed - 200 - -1 - 200
+2016-08-30T19:52:28.499 +0000 [ 946043783][       9] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ncss/grid/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd/dataset.html HTTP/1.1"
+2016-08-30T19:52:29.314 +0000 [ 946044598][       9] INFO  - threddsServlet - Request Completed - 200 - 81264 - 816
+2016-08-30T19:52:29.353 +0000 [ 946044637][      10] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/style/ncss/main.css HTTP/1.1"
+2016-08-30T19:52:29.355 +0000 [ 946044639][      11] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/style/ncss/layout.css HTTP/1.1"
+2016-08-30T19:52:29.356 +0000 [ 946044640][      12] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/js/lib/OpenLayers-2.12/theme/default/style.css HTTP/1.1"
+2016-08-30T19:52:29.356 +0000 [ 946044640][      13] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/style/ncss/form.css HTTP/1.1"
+2016-08-30T19:52:29.362 +0000 [ 946044646][      11] INFO  - threddsServlet - Request Completed - 200 - 1144 - 8
+2016-08-30T19:52:29.362 +0000 [ 946044646][      13] INFO  - threddsServlet - Request Completed - 200 - 1706 - 6
+2016-08-30T19:52:29.362 +0000 [ 946044646][      12] INFO  - threddsServlet - Request Completed - 200 - 9948 - 6
+2016-08-30T19:52:29.364 +0000 [ 946044648][      10] INFO  - threddsServlet - Request Completed - 200 - 1863 - 11
+2016-08-30T19:52:29.379 +0000 [ 946044663][      14] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/js/lib/jquery-1.7.2.min.js HTTP/1.1"
+2016-08-30T19:52:29.379 +0000 [ 946044663][      16] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/js/ncss/ncssApp.js HTTP/1.1"
+2016-08-30T19:52:29.379 +0000 [ 946044663][      17] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/js/ncss/gridDatasetForm.js HTTP/1.1"
+2016-08-30T19:52:29.379 +0000 [ 946044663][      15] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/js/lib/OpenLayers-2.12/OpenLayers.js HTTP/1.1"
+2016-08-30T19:52:29.384 +0000 [ 946044668][      16] INFO  - threddsServlet - Request Completed - 200 - 4069 - 5
+2016-08-30T19:52:29.385 +0000 [ 946044669][      17] INFO  - threddsServlet - Request Completed - 200 - 8223 - 6
+2016-08-30T19:52:29.386 +0000 [ 946044670][      14] INFO  - threddsServlet - Request Completed - 200 - 94840 - 7
+2016-08-30T19:52:29.399 +0000 [ 946044683][      15] INFO  - threddsServlet - Request Completed - 200 - 739725 - 20
+2016-08-30T19:53:54.403 +0000 [ 946129687][      18] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ncss/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd?horizStride=1&time_start=2016-01-01T00%3A00%3A00Z&time_end=2016-09-02T12%3A00%3A00Z&timeStride=1&vertCoord=-0.986111111111111&accept=netcdf HTTP/1.1"
+2016-08-30T19:53:54.970 +0000 [ 946130254][      18] INFO  - threddsServlet - Request Completed - 400 - -1 - 567
+2016-08-30T19:54:06.955 +0000 [ 946142239][      19] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ncss/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd?var=temp&north=39.3735&west=-100.4328&east=-68.1901&south=13.1637&horizStride=1&time_start=2016-01-01T00%3A00%3A00Z&time_end=2016-09-02T12%3A00%3A00Z&timeStride=1&vertCoord=-0.986111111111111&accept=netcdf HTTP/1.1"
+2016-08-30T19:56:32.098 +0000 [ 946287382][      19] ERROR - thredds.server.ncss.controller.AbstractNcssController - Uncaught exception
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:393) ~[catalina.jar:8.0.32]
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:344) ~[tomcat-util.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:418) ~[catalina.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:406) ~[catalina.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:97) ~[catalina.jar:8.0.32]
+	at ucar.nc2.util.IO.copyB(IO.java:209) ~[cdm-4.6.4.jar:4.6.4]
+	at ucar.nc2.util.IO.copyFileB(IO.java:356) ~[cdm-4.6.4.jar:4.6.4]
+	at thredds.server.ncss.controller.NcssController.handleRequestGrid(NcssController.java:195) ~[classes/:4.6.4]
+	at thredds.server.ncss.controller.NcssController.handleRequest(NcssController.java:140) ~[classes/:4.6.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:118) [classes/:4.6.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at thredds.servlet.filter.RequestCORSFilter.doFilterInternal(RequestCORSFilter.java:49) [classes/:4.6.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at thredds.servlet.filter.RequestPathFilter.doFilter(RequestPathFilter.java:94) [classes/:4.6.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at thredds.server.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:81) [classes/:4.6.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [catalina.jar:8.0.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.32]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616) [catalina.jar:8.0.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [catalina.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-coyote.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-coyote.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-coyote.jar:8.0.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_73]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.32]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[?:1.8.0_73]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:124) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:172) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.writeToSocket(InternalNioOutputBuffer.java:139) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.addToBB(InternalNioOutputBuffer.java:197) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.access$000(InternalNioOutputBuffer.java:41) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer$SocketOutputBuffer.doWrite(InternalNioOutputBuffer.java:320) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:118) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:256) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.coyote.Response.doWrite(Response.java:501) ~[tomcat-coyote.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:388) ~[catalina.jar:8.0.32]
+	... 64 more
+2016-08-30T19:56:37.952 +0000 [ 946293236][      20] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/dodsC/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd.html HTTP/1.1"
+2016-08-30T19:56:38.149 +0000 [ 946293433][      20] INFO  - threddsServlet - Request Completed - 200 - -1 - 197
+2016-08-30T19:56:47.967 +0000 [ 946303251][      21] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/dodsC/fmrc/sabgom_roms/SABGOM_Forecast_Model_Run_Collection_best.ncd.ascii?time[0:1:768] HTTP/1.1"
+2016-08-30T19:56:48.176 +0000 [ 946303460][      21] INFO  - threddsServlet - Request Completed - 200 - -1 - 209

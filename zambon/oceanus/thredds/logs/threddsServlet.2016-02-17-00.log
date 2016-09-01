@@ -1,0 +1,10 @@
+2016-02-17T00:52:52.485 +0000 [ 178371445][      33] INFO  - threddsServlet - Remote host: 107.15.73.61 - Request: "GET /thredds/ HTTP/1.1"
+2016-02-17T00:52:52.506 +0000 [ 178371466][      33] INFO  - threddsServlet - Request Completed - 302 - -1 - 21
+2016-02-17T00:52:52.533 +0000 [ 178371493][      34] INFO  - threddsServlet - Remote host: 107.15.73.61 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-02-17T00:52:52.536 +0000 [ 178371496][      34] INFO  - threddsServlet - Request Completed - 200 - 2062 - 3
+2016-02-17T00:52:53.848 +0000 [ 178372808][      35] INFO  - threddsServlet - Remote host: 107.15.73.61 - Request: "GET /thredds/catalogs/sabgom_ROMS_hindcast_catalog.html HTTP/1.1"
+2016-02-17T00:52:53.849 +0000 [ 178372809][      35] INFO  - threddsServlet - Request Completed - 200 - 1550 - 2
+2016-02-17T00:52:55.183 +0000 [ 178374143][      36] INFO  - threddsServlet - Remote host: 107.15.73.61 - Request: "GET /thredds/catalog/SABGOM/hindcast/catalog.html HTTP/1.1"
+2016-02-17T00:52:55.185 +0000 [ 178374145][      36] INFO  - threddsServlet - Request Completed - 200 - 2631 - 2
+2016-02-17T00:53:08.972 +0000 [ 178387932][      37] INFO  - threddsServlet - Remote host: 107.15.73.61 - Request: "GET /thredds/catalog/SABGOM/hindcast/sabgom_uv_3hr/catalog.html HTTP/1.1"
+2016-02-17T00:53:09.137 +0000 [ 178388097][      37] INFO  - threddsServlet - Request Completed - 200 - 82515 - 165

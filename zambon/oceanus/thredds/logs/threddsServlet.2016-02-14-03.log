@@ -1,0 +1,9 @@
+2016-02-14T03:35:22.218 +0000 [      7877][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 40
+2016-02-14T03:35:22.260 +0000 [      7919][       2] INFO  - threddsServlet - Remote host: 174.99.101.37 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-02-14T03:35:22.296 +0000 [      7955][       2] INFO  - threddsServlet - Request Completed - 200 - 2211 - 36
+2016-02-14T03:35:22.424 +0000 [      8083][       3] INFO  - threddsServlet - Remote host: 174.99.101.37 - Request: "GET /thredds/tdsCat.css HTTP/1.1"
+2016-02-14T03:35:22.436 +0000 [      8095][       4] INFO  - threddsServlet - Remote host: 174.99.101.37 - Request: "GET /thredds/threddsIcon.gif HTTP/1.1"
+2016-02-14T03:35:22.439 +0000 [      8098][       3] INFO  - threddsServlet - Request Completed - 200 - -1 - 15
+2016-02-14T03:35:22.440 +0000 [      8099][       4] INFO  - threddsServlet - Request Completed - 200 - -1 - 5
+2016-02-14T03:35:22.485 +0000 [      8144][       5] INFO  - threddsServlet - Remote host: 174.99.101.37 - Request: "GET /thredds/folder.gif HTTP/1.1"
+2016-02-14T03:35:22.489 +0000 [      8148][       5] INFO  - threddsServlet - Request Completed - 200 - -1 - 4

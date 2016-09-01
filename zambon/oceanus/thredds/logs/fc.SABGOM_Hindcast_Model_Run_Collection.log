@@ -1,0 +1,37 @@
+2016-02-14T22:53:13.916 +0000 INFO  - FeatureCollection added = FeatureCollectionConfig name ='SABGOM Hindcast Model Run Collection' collectionName='SABGOM_Hindcast_Model_Run_Collection' type='FMRC'
+  spec='/raid0/data/hindcast/single_file/his_#yyyyMMdd#.*\.nc$'
+  olderThan =10 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 5 * * * ? *', triggerOk=true, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='[Element: <netcdf [Namespace: http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2]/>]', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=false datasetTypes=[Best]
+
+2016-02-14T22:53:13.917 +0000 INFO  - scheduleJob startup scan force=test for 'SABGOM_Hindcast_Model_Run_Collection' at 2016-02-14T22:53:16.917+0000
+2016-02-14T22:53:13.917 +0000 INFO  - scheduleJob recurring scan for 'SABGOM_Hindcast_Model_Run_Collection' cronExpr=0 5 * * * ? *
+2016-02-14T22:53:16.920 +0000 WARN  - MFileCollectionManager: No files found for SABGOM_Hindcast_Model_Run_Collection
+2016-02-14T22:58:40.281 +0000 INFO  - FeatureCollection added = FeatureCollectionConfig name ='SABGOM Hindcast Model Run Collection' collectionName='SABGOM_Hindcast_Model_Run_Collection' type='FMRC'
+  spec='/raid0/data/hindcast/single_file/sabgom_bio_his.nc$'
+  olderThan =10 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 5 * * * ? *', triggerOk=true, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='[Element: <netcdf [Namespace: http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2]/>]', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=false datasetTypes=[Best]
+
+2016-02-14T22:58:40.282 +0000 INFO  - scheduleJob startup scan force=test for 'SABGOM_Hindcast_Model_Run_Collection' at 2016-02-14T22:58:43.282+0000
+2016-02-14T22:58:40.282 +0000 INFO  - scheduleJob recurring scan for 'SABGOM_Hindcast_Model_Run_Collection' cronExpr=0 5 * * * ? *
+2016-02-14T22:58:49.098 +0000 ERROR - UpdateCollectionJob.execute startup failed collection=SABGOM_Hindcast_Model_Run_Collection
+java.lang.NullPointerException
+	at ucar.nc2.ft.fmrc.FmrcDataset.getNetcdfDataset2D(FmrcDataset.java:182) ~[cdm-4.6.4.jar:4.6.4]
+	at ucar.nc2.ft.fmrc.Fmrc.getDataset2D(Fmrc.java:187) ~[cdm-4.6.4.jar:4.6.4]
+	at thredds.catalog.InvDatasetFcFmrc.updateCollection(InvDatasetFcFmrc.java:114) ~[tdcommon-4.6.4.jar:4.6.4]
+	at thredds.catalog.InvDatasetFeatureCollection.checkState(InvDatasetFeatureCollection.java:311) ~[tdcommon-4.6.4.jar:4.6.4]
+	at thredds.catalog.InvDatasetFeatureCollection.update(InvDatasetFeatureCollection.java:332) ~[tdcommon-4.6.4.jar:4.6.4]
+	at thredds.catalog.InvDatasetFcFmrc.update(InvDatasetFcFmrc.java:88) ~[tdcommon-4.6.4.jar:4.6.4]
+	at thredds.catalog.InvDatasetFeatureCollection.sendEvent(InvDatasetFeatureCollection.java:228) ~[tdcommon-4.6.4.jar:4.6.4]
+	at thredds.inventory.CollectionUpdater$UpdateCollectionJob.execute(CollectionUpdater.java:242) [cdm-4.6.4.jar:4.6.4]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:207) [quartz-2.2.0.jar:?]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:560) [quartz-2.2.0.jar:?]

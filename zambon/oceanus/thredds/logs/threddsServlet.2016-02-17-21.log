@@ -1,0 +1,14 @@
+2016-02-17T21:57:24.486 +0000 [ 254243446][      38] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/ HTTP/1.1"
+2016-02-17T21:57:24.489 +0000 [ 254243449][      38] INFO  - threddsServlet - Request Completed - 302 - -1 - 4
+2016-02-17T21:57:24.494 +0000 [ 254243454][      39] INFO  - threddsServlet - Remote host: 152.1.31.163 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-02-17T21:57:24.497 +0000 [ 254243457][      39] INFO  - threddsServlet - Request Completed - 200 - 2062 - 3
+2016-02-17T21:57:40.268 +0000 [ 254259228][      40] INFO  - threddsServlet - Remote host: 10.139.123.138 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2016-02-17T21:57:40.271 +0000 [ 254259231][      40] INFO  - threddsServlet - Request Completed - 200 - 2062 - 3
+2016-02-17T21:57:40.308 +0000 [ 254259268][      41] INFO  - threddsServlet - Remote host: 10.139.123.138 - Request: "GET /thredds/tdsCat.css HTTP/1.1"
+2016-02-17T21:57:40.310 +0000 [ 254259270][      41] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2016-02-17T21:57:40.316 +0000 [ 254259276][      42] INFO  - threddsServlet - Remote host: 10.139.123.138 - Request: "GET /thredds/threddsIcon.gif HTTP/1.1"
+2016-02-17T21:57:40.317 +0000 [ 254259277][      42] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2016-02-17T21:57:40.319 +0000 [ 254259279][      43] INFO  - threddsServlet - Remote host: 10.139.123.138 - Request: "GET /thredds/folder.gif HTTP/1.1"
+2016-02-17T21:57:40.320 +0000 [ 254259280][      43] INFO  - threddsServlet - Request Completed - 200 - -1 - 1
+2016-02-17T21:57:45.419 +0000 [ 254264379][      44] INFO  - threddsServlet - Remote host: 10.139.123.138 - Request: "GET /thredds/catalogs/sabgom_ROMS_hindcast_catalog.html HTTP/1.1"
+2016-02-17T21:57:45.421 +0000 [ 254264381][      44] INFO  - threddsServlet - Request Completed - 200 - 1550 - 2

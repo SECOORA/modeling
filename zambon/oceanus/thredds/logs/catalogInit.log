@@ -1,0 +1,69 @@
+You are currently running TDS version 4.6.4 - 2016-02-10T14:25:05-0700
+Latest Available TDS Version Info:
+    latest development version = 5.0.0
+    latest stable version = 4.6.6
+
+initCatalogs(): initializing 1 root catalogs.
+
+**************************************
+Catalog init catalog.xml
+[2016-08-31T19:33:11.386Z]
+initCatalog catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalog.xml; path=catalog.xml
+----Catalog Validation
+
+  add static catalog to hash=catalog.xml
+  catref.getXlinkHref=catalogs/sabgom_ROMS_hindcast_catalog.xml
+initCatalog catalogs/sabgom_ROMS_hindcast_catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_hindcast_catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_hindcast_catalog.xml; path=catalogs/sabgom_ROMS_hindcast_catalog.xml
+----Catalog Validation
+
+*** ERROR initCatalog(): declared services: [wcs, iso, ncml, uddc] in catalog: /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_hindcast_catalog.xml are disallowed in threddsConfig file
+ added rootPath=<SABGOM/hindcast>  for directory= </raid0/data/hindcast/>
+  add static catalog to hash=catalogs/sabgom_ROMS_hindcast_catalog.xml
+  catref.getXlinkHref=catalogs/sabgom_ROMS_nf_catalog.xml
+initCatalog catalogs/sabgom_ROMS_nf_catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_nf_catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_nf_catalog.xml; path=catalogs/sabgom_ROMS_nf_catalog.xml
+----Catalog Validation
+*** XML parser error (42:39)= cvc-complex-type.2.4.a: Invalid content was found starting with element 'protoDataset'. One of '{"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":pointConfig, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":gribConfig, "http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2":netcdf}' is expected.
+*** XML parser warning (5:88)= SchemaLocation: schemaLocation value = 'http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog. 1.0.3.xsd' must have even number of URI's.
+
+*** ERROR initCatalog(): declared services: [ncml, uddc, iso] in catalog: /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/sabgom_ROMS_nf_catalog.xml are disallowed in threddsConfig file
+ added rootPath=<fmrc/sabgom_roms>  for feature collection= <SABGOM ROMS Nowcast/Forecast/SABGOM ROMS Forecast Model Run Collection>
+  add static catalog to hash=catalogs/sabgom_ROMS_nf_catalog.xml
+  catref.getXlinkHref=catalogs/useast_COAWST_nf_catalog.xml
+initCatalog catalogs/useast_COAWST_nf_catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_COAWST_nf_catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_COAWST_nf_catalog.xml; path=catalogs/useast_COAWST_nf_catalog.xml
+----Catalog Validation
+
+  add static catalog to hash=catalogs/useast_COAWST_nf_catalog.xml
+  catref.getXlinkHref=useast_COAWST_ROMS_nf_catalog.xml
+initCatalog catalogs/useast_COAWST_ROMS_nf_catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_COAWST_ROMS_nf_catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_COAWST_ROMS_nf_catalog.xml; path=catalogs/useast_COAWST_ROMS_nf_catalog.xml
+----Catalog Validation
+*** XML parser error (42:39)= cvc-complex-type.2.4.a: Invalid content was found starting with element 'protoDataset'. One of '{"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":pointConfig, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":gribConfig, "http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2":netcdf}' is expected.
+*** XML parser warning (5:88)= SchemaLocation: schemaLocation value = 'http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog. 1.0.3.xsd' must have even number of URI's.
+
+*** ERROR initCatalog(): declared services: [ncml, uddc, iso] in catalog: /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_COAWST_ROMS_nf_catalog.xml are disallowed in threddsConfig file
+ added rootPath=<fmrc/useast_coawst_roms>  for feature collection= <USEast COAWST-ROMS Nowcast/Forecast/USEast COAWST-ROMS Forecast Model Run Collection>
+  add static catalog to hash=catalogs/useast_COAWST_ROMS_nf_catalog.xml
+  catref.getXlinkHref=useast_COAWST_WRF_nf_catalog.xml
+*** ERROR initCatalog(): Catalog [catalogs/useast_COAWST_WRF_nf_catalog.xml] does not exist in config directory.
+  catref.getXlinkHref=catalogs/useast_WRF_nf_catalog.xml
+initCatalog catalogs/useast_WRF_nf_catalog.xml -> /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_WRF_nf_catalog.xml
+
+-------readCatalog(): full path=/usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_WRF_nf_catalog.xml; path=catalogs/useast_WRF_nf_catalog.xml
+----Catalog Validation
+*** XML parser error (42:39)= cvc-complex-type.2.4.a: Invalid content was found starting with element 'protoDataset'. One of '{"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":pointConfig, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":gribConfig, "http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2":netcdf}' is expected.
+*** XML parser warning (5:88)= SchemaLocation: schemaLocation value = 'http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog. 1.0.3.xsd' must have even number of URI's.
+
+*** ERROR initCatalog(): declared services: [ncml, uddc, iso] in catalog: /usr/local/tds/apache-tomcat-8.0.32/content/thredds/catalogs/useast_WRF_nf_catalog.xml are disallowed in threddsConfig file
+ added rootPath=<fmrc/uesast_wrf>  for feature collection= <USEast WRF Nowcast/Forecast/USEast WRF Forecast Model Run Collection>
+  add static catalog to hash=catalogs/useast_WRF_nf_catalog.xml
+  catref.getXlinkHref=catalogs/useast_swan_catalog.xml
+*** ERROR initCatalog(): Catalog [catalogs/useast_swan_catalog.xml] does not exist in config directory.
