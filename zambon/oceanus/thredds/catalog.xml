@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  name="THREDDS Top Catalog, points to other THREDDS catalogs" version="1.0.1">
+  <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+  <dataset name="NCSU OOMG THREDDS catalogs">
+    <dataset name="SABGOM (South Atlantic Bight and Gulf of Mexico) Domain">
+      <catalogRef xlink:href="catalogs/sabgom_ROMS_hindcast_catalog.xml"
+        xlink:title="ROMS 2004-2010 Model Hindcast" name=""/>
+      <catalogRef xlink:href="catalogs/sabgom_ROMS_nf_catalog.xml"
+        xlink:title="ROMS 2010-Present Model Nowcast-Forecast" name=""/>
+    </dataset>
+    <dataset name="USEast (US East Coast) Domain">
+      <catalogRef xlink:href="catalogs/useast_COAWST_nf_catalog.xml"
+        xlink:title="COAWST 2013-Present Model Nowcast-Forecast" name=""/>
+      <catalogRef xlink:href="catalogs/useast_WRF_nf_catalog.xml"
+        xlink:title="WRF 2012-Present Model Nowcast-Forecast" name=""/>
+      <catalogRef xlink:href="catalogs/useast_swan_catalog.xml"
+        xlink:title="SWAN 2012-Present Model Nowcast-Forecast" name=""/>
+    </dataset>
+  </dataset>
+</catalog>

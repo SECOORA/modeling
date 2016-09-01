@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    name="THREDDS Catalog for NetCDF Files" version="1.0.1">
+    <service name="allServices" serviceType="Compound" base="">
+        <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+        <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+        <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+        <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+        <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+        <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+        <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+        <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    </service>
+
+    <datasetScan name="2004-2010 ROMS Hindcast" ID="SABGOM/hindcast" path="SABGOM/hindcast" location="/raid0/data/hindcast/">
+        <metadata inherited="true">
+            <serviceName>allServices</serviceName>
+            <publisher>
+                <name vocabulary="DIF">Dr. Ruoying He</name>
+                <contact url="http://www.meas.ncsu.edu/faculty/he/he.html" email="rhe@ncsu.edu"/>
+            </publisher>
+        </metadata>
+        <filter>
+            <include wildcard="*.ncml"/>
+            <include wildcard="*.nc"/>
+            <include wildcard="*.grd"/>
+            <include wildcard="*.nc.gz"/>
+            <include wildcard="*.cdf"/>
+            <include wildcard="*.grib"/>
+            <include wildcard="*.grb"/>
+            <include wildcard="*.grb2"/>
+            <include wildcard="*.grib2"/>
+        </filter>
+        <sort>
+            <lexigraphicByName increasing="true"/>
+        </sort>
+        <addDatasetSize/>
+    </datasetScan>
+
+</catalog>

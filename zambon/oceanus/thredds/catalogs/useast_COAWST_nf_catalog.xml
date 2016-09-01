@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  name="USEast (US East Coast) COAWST Catalog, points to coupled model components" version="1.0.1">
+  <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+    <dataset name="USEast COAWST Model Components (August 2013-Present)">
+      <catalogRef xlink:href="useast_COAWST_ROMS_nf_catalog.xml"
+        xlink:title="USEast COAWST ROMS/SWAN" name=""/>
+      <catalogRef xlink:href="useast_COAWST_WRF_nf_catalog.xml"
+        xlink:title="USEast COAWST WRF" name=""/>
+    </dataset>
+</catalog>
+
