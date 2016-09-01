@@ -1,0 +1,93 @@
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.
+1.0.3.xsd"
+ xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+ xmlns:xlink="http://www.w3.org/1999/xlink" name="OPeNDAP Data Server" version="1.0.3">
+ <service name="allServices" serviceType="Compound" base="">
+  <service name="ncdods" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+  <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+  <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+  <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+  <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+ </service>
+
+ <dataset name="USEast WRF Nowcast/Forecast">
+  <metadata inherited="true">
+   <serviceName>allServices</serviceName>
+   <creator>
+    <name vocabulary="DIF">Dr. Ruoying He</name>
+    <contact url="http://www.meas.ncsu.edu/faculty/he/he.html" email="ruoying_he@ncsu.edu"/>
+   </creator>
+   <documentation xlink:href="http://omgsrv1.meas.ncsu.edu:8080/ocean-circulation/"
+    xlink:title="USEast WRF Nowcast/Forecast System Project Page"/>
+   <documentation type="Summary"> Coastal Circulation Nowcast/Forecast System for the Northwest
+    Atlantic and US East Coast </documentation>
+   <documentation type="Rights"> This model data was generated as part of an academic research
+    project, and the principal investigator Ruoying He (rhe@ncsu.edu) asks to be informed of intent
+    for scientific use and appropriate acknowledgment given in any publications arising therefrom.
+    The data is provided free of charge, without warranty of any kind. </documentation>
+  </metadata>
+
+  <featureCollection name="USEast WRF Forecast Model Run Collection" featureType="FMRC"
+   harvest="true" path="fmrc/uesast_wrf">
+   <metadata inherited="true">
+    <serviceName>allServices</serviceName>
+   </metadata>
+   <collection spec="/home/jbzambon/20160830.nc"/>
+   <update startup="true" rescan="0 5 * * * ? *" trigger="allow"/>
+   <fmrcConfig regularize="false" datasetTypes="Best"/>
+
+   <protoDataset choice="Penultimate">
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+
+     <variable name="slp">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="sea_level_pressure"/>
+     </variable>
+     <variable name="mdbz">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="simulated_radar_reflectivity"/>
+     </variable>
+     <variable name="tc2">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="2m_air_temperature"/>
+     </variable>
+     <variable name="td2">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="2m_dewpoint"/>
+     </variable>
+     <variable name="u10">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="10m_eastwest_wind"/>
+     </variable>
+     <variable name="v10">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="10m_northsouth_wind"/>
+     </variable>
+     <variable name="sst">
+      <attribute name="_FillValue" type="float" value="0.0"/>
+      <attribute name="standard_name" value="sea_surface_temperature"/>
+     </variable>
+    </netcdf>
+
+   </protoDataset>
+   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+    <variable name="lat">
+     <attribute name="coordinates" value="Time south_north west_east"/>
+    </variable>
+    <variable name="lon">
+     <attribute name="coordinates" value="Time south_north west_east"/>
+    </variable>
+    <variable name="landmask">
+     <attribute name="coordinates" value="Time south_north west_east"/>
+    </variable>
+    <attribute name="Conventions" value="CF-1.0"/>
+   </netcdf>
+  </featureCollection>
+
+ </dataset>
+
+
+</catalog>
